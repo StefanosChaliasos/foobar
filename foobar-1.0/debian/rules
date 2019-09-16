@@ -8,5 +8,7 @@ D := $(CURDIR)/debian/tmp
 
 override_dh_auto_install:
 	${MKDIR_P} ${D}/usr/bin
+	${MKDIR_P} ${D}/usr/lib
+	${MKDIR_P} ${D}/usr/include
 	${MKDIR_P} ${D}/usr/share/man/man1
 	$(MAKE) DESTDIR=$(D) prefix=/usr install

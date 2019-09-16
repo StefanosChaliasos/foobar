@@ -16,3 +16,9 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: prints bar
  bar prints bar
+
+Package: foobar-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: foobar shared library
+ foobar shared library that prints messages
