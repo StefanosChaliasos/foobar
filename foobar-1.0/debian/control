@@ -1,0 +1,18 @@
+Source: foobar
+Maintainer: Stefanos Chaliasos <stefanoshaliassos@gmail.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: foo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: prints foo
+ foo prints foo
+
+Package: bar
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: prints bar
+ bar prints bar
