@@ -1,1 +1,1 @@
-void fun2(void); 
+void libfun2(void);

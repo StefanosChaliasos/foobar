@@ -1,5 +1,5 @@
-#include <stdio.h> 
-void libfun2(void) 
-{ 
-	printf("fun1() called from a shared library"); 
-} 
+#include <stdio.h>
+void libfun2(void)
+{
+	printf("libfun2() called from a shared library");
+}
