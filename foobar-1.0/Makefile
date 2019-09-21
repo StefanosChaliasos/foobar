@@ -4,6 +4,8 @@ libdir =${exec_prefix}/lib
 sharedlibdir =${libdir}
 includedir =${prefix}/include
 
+.PHONY: all install clean
+
 all:
 	$(CC) -o foo file1.c
 	$(CC) -o bar file2.c
